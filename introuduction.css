@@ -1,0 +1,10 @@
+.container{
+    display :grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* Same as above */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 50px;
+    /* Same as above   row            columns   */
+    grid-template: repeat(2,1fr) / 1fr 2fr 1fr;
+    grid-gap:3px;
+}
